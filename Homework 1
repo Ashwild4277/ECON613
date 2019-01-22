@@ -1,0 +1,8 @@
+#directory
+getwd()
+setwd("D:\\R\\HW1")
+
+#import data
+datstu <- read.csv(file="D:\\R\\HW1\\dat\\datstu.csv", header=TRUE, sep=",")
+datsss <- read.csv(file="D:\\R\\HW1\\dat\\datsss.csv", header=TRUE, sep=",")
+datjss <- read.csv(file="D:\\R\\HW1\\dat\\datjss.csv", header=TRUE, sep=",")
